@@ -8,7 +8,7 @@ import random
 import os
 app = Flask(__name__)
 import os
-client = Groq(api_key=os.environ.get("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"))
+client = Groq(api_key=os.environ.get("Enter your groq key"))
 
 CHAPTERS = {
     "complex-numbers": {
